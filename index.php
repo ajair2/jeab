@@ -1,4 +1,6 @@
 <?php
+
+  require_once ("config/Config.php");
   # Cargar el helpers para usar en todos los archivos
   require_once ("helpers/Helpers.php");
   
