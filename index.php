@@ -1,4 +1,7 @@
 <?php
+  # Cargar el helpers para usar en todos los archivos
+  require_once ("helpers/Helpers.php");
+  
   $ruta = !empty($_GET["url"]) ? $_GET["url"] : "Home/index";
   $array = explode("/", $ruta);
   $controller = $array[0];
