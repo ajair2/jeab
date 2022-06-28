@@ -24,7 +24,7 @@
   }
 
   # Directorio donde estaran todos los controladores
-  $dirController = "Controllers" . "/" . $controller . ".php";
+  $dirController = "controllers/" . $controller . ".php";
 
   if (file_exists($dirController)) {
     require_once $dirController;
