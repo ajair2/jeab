@@ -17,6 +17,22 @@
         <!-- Left side columns -->
         <div class="col-lg-12">
           <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <!-- Recent Sales -->
+                <div class="col-12">
+                  <div class="card recent-sales overflow-auto">
+    
+                    <div class="card-body">
+                      <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+
+                    </div>
+    
+                  </div>
+                </div><!-- End Recent Sales -->
+    
+              </div>
+            </div>
             <!-- Recent Sales -->
             <div class="col-12">
               <div class="card recent-sales overflow-auto">
@@ -80,6 +96,7 @@
 
           </div>
         </div><!-- End Left side columns -->
+
 
       </div>
     </section>

@@ -17,3 +17,11 @@
     $viewFooter = "views/template/footer.php";
     require_once ($viewFooter);
   }
+
+  function debug($data) {
+    $format = print_r("<pre>");
+    $format .= print_r($data);
+    $format .= print_r("</pre>");
+
+    return $format;
+  }
