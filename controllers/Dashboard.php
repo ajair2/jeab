@@ -1,6 +1,7 @@
 <?php
   class Dashboard extends Controller {
     public function index() {
-      $this->views->getView($this, "index");
+      $data["page_name"] = "Dashboard";
+      $this->views->getView($this, "index", $data);
     }
   }

@@ -8,12 +8,12 @@
     return base_url . "/assets";
   }
 
-  function headerAdmin() {
+  function headerAdmin($data="") {
     $viewHeader = "views/template/header.php";
     require_once ($viewHeader);
   }
 
-  function footerAdmin() {
+  function footerAdmin($data="") {
     $viewFooter = "views/template/footer.php";
     require_once ($viewFooter);
   }
