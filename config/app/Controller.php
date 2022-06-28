@@ -1,12 +1,12 @@
 <?php
   class Controller {
     public function __construct() {
-      $this-> view = new Views();
+      $this-> views = new Views();
       $this-> cargarModel();
     }
     
     public function cargarModel() {
-      $model = get_class($this)."Model";
+      $model = get_class($this) . "Model";
       $ruta = "models/" . $model . ".php";
 
       if (file_exists($ruta)) {
