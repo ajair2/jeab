@@ -1,7 +1,8 @@
 <?php
   class Controller {
     public function __construct() {
-      $this->cargarModel();
+      $this-> view = new Views();
+      $this-> cargarModel();
     }
     
     public function cargarModel() {

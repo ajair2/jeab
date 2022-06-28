@@ -7,7 +7,6 @@
       } else {
         $vista = "views/" . $controlador . "/" . $vista . ".php";
       }
-
       require $vista;
     }
   }

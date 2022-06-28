@@ -23,6 +23,8 @@
     }
   }
 
+  require_once "config/app/autoload.php";
+
   # Directorio donde estaran todos los controladores
   $dirController = "controllers/" . $controller . ".php";
 
