@@ -25,7 +25,7 @@
     
                     <div class="card-body">
                       <h5 class="card-title">Recent Sales <span>| Today</span></h5>
-
+                      <?php debug($data) ?>
                     </div>
     
                   </div>
@@ -102,4 +102,4 @@
     </section>
 
   </main><!-- End #main -->
-<?php footerAdmin(); ?> 
+<?php footerAdmin($data); ?> 

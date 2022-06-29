@@ -23,6 +23,8 @@
 
   <!-- Template Main JS File -->
   <script src="<?php echo media(); ?>/js/main.js"></script>
+  <!-- JS Admin -->
+  <script src="<?php echo media(); ?>/app/js/<?php echo $data["function_js"]; ?>"></script>
 
 </body>
 
